@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper1 {
+  width: 600px;
+  height: 600px;
+  border: 5px solid black;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper1 .parent {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: rgb(216, 213, 213);
+  display: flex;
+  padding: 10px;
+}
+.wrapper1 .parent .child {
+  width: 100%;
+  height: 65px;
+  box-sizing: border-box;
+  background-color: orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapper1 .parent .child .box {
+  width: 55px;
+  height: 55px;
+  background-color: rgb(20, 35, 172);
+}
+.wrapper1 .parent1 {
+  align-items: center;
+}
+.wrapper1 .parent2 {
+  justify-content: center;
+}
+.wrapper1 .parent2 .child2 {
+  width: 65px;
+  height: 100%;
+  flex-direction: column;
+}
+.wrapper1 .parent3 {
+  align-items: end;
+}
+.wrapper1 .parent4 {
+  justify-content: end;
+}/*# sourceMappingURL=T004_03.css.map */
