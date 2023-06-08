@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 600px;
+  height: 600px;
+  border: 5px solid black;
+  margin: auto;
+  position: relative;
+}
+.wrapper .parent {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(216, 213, 213);
+  padding: 10px;
+}
+.wrapper .parent .box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+.wrapper .parent1 {
+  top: 75px;
+  left: 75px;
+}
+.wrapper .parent1 .box1 {
+  top: 50%;
+  translate: -50% -50%;
+}
+.wrapper .parent2 {
+  bottom: 75px;
+  right: 75px;
+}
+.wrapper .parent2 .box2 {
+  left: 50%;
+  bottom: 0;
+  translate: -50% 50%;
+}/*# sourceMappingURL=TP04_06.css.map */

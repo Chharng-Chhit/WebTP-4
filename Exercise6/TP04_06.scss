@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 600px;
+    height: 600px;
+    border: 5px solid black;
+    margin: auto;
+    position: relative;
+    .parent{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(216, 213, 213);
+        padding: 10px;
+        .box{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+        }
+    }
+    .parent1{
+        top: 75px;
+        left: 75px;
+        .box1{
+            top: 50%;
+            translate: -50% -50%;
+        }
+    }
+    .parent2{
+        bottom: 75px;
+        right: 75px;
+        .box2{
+            left: 50%;
+            bottom: 0;
+            translate: -50% 50%;
+        }
+    }
+}

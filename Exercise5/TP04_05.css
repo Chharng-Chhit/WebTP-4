@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 600px;
+  height: 600px;
+  border: 5px solid black;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper .parent {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: rgb(216, 213, 213);
+  display: flex;
+  padding: 10px;
+  position: relative;
+}
+.wrapper .parent .child {
+  width: 200px;
+  background-color: orange;
+  height: 65px;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+}
+.wrapper .parent .child .box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: blueviolet;
+  top: 8px;
+  left: 8px;
+}
+.wrapper .parent .child .box3 {
+  left: 100%;
+  translate: -120% 0;
+}
+.wrapper .parent .child .box2 {
+  left: 50%;
+  translate: -50% 0;
+}
+.wrapper .parent .child3 {
+  top: 100%;
+  translate: 0 -120%;
+}
+.wrapper .parent .child2, .wrapper .parent .child4 {
+  width: 65px;
+  height: 200px;
+  top: 9px;
+}
+.wrapper .parent .child2 .box, .wrapper .parent .child4 .box {
+  left: 8px;
+}
+.wrapper .parent .child2 .box2, .wrapper .parent .child4 .box2 {
+  top: 50%;
+  translate: 0 -50%;
+}
+.wrapper .parent .child2 .box3, .wrapper .parent .child4 .box3 {
+  top: 100%;
+  translate: 0 -120%;
+}
+.wrapper .parent .child2 {
+  left: 50%;
+  translate: -50% 0;
+}
+.wrapper .parent .child4 {
+  left: 100% !important;
+  translate: -120%;
+}/*# sourceMappingURL=TP04_05.css.map */
